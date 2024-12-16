@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .stats {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .game {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .field {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-gap: 10px;  
+    margin-right: 20px;
+}
+
+  .plot {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    text-align: center;
+    line-height: 100px;
+    font-size: 14px;
+    color: #777;
+  }
+  .plot.occupied {
+    background-color: #c4f7c4;
+    color: #333;
+  }
+  
+  .vegetables {
+    width: 200px;
+  }
+  .vegetable {
+    padding: 10px;
+    background-color: #ffd700;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    cursor: grab;
+    text-align: center;
+  }
+  
+  .carots{
+    background-color:coral;
+  }
+  .poirreau{
+    background-color:#c4f7c4;
+  }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulateur de Champ</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <h1>Simulateur de Champ</h1>
+
+  <div class="stats">
+
+    <p>Argent du paysan : <span id="coins">0</span> pièces</p>
+    <button id="buyPlot">Acheter un carré (10 pièces)</button>
+
+  </div>
+  <div class="game">
+    <div id="field" class="field"></div>
+    <div class="vegetables">
+      <h3>Légumes disponibles</h3>
+      <div id="ble" class="vegetable" draggable="true" data-type="blé" data-time="10" data-value="2" data-bg="#ffd700">
+        Blé (2 pièces, 10s)
+      </div>
+      <div id="carrote" class="vegetable carots" draggable="true" data-type="carotte" data-time="30" data-value="6" data-bg="coral">
+        carotte (6 pièces, 30s)
+      </div>
+      <div id="poirreau" class="vegetable poirreau" draggable="true" data-type="poirreau" data-time="60" data-value="10" data-bg="#c4f7c4">
+        Poirreau (10 pièces, 60s)
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
+
